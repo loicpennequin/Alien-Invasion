@@ -6,7 +6,7 @@ var score = 0
 
 function setup(){
     var c = createCanvas(1200,600);
-    c.parent('container')
+    c.parent('container');
     background(0);
     player = new Player();
     noStroke();
